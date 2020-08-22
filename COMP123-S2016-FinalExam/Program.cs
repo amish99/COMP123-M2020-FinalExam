@@ -9,7 +9,7 @@ namespace COMP123_M2020_FinalExam
     /*
 * Name: amish tangri
 * Student ID: 301108446
-* Date: August 21, 2020
+* Date:August 21, 2020
 */
     public static class Program
     {
