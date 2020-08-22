@@ -32,7 +32,7 @@ namespace COMP123_M2020_FinalExam
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            //  INSTANTIATING THE FORM OBJECTS
+            //  this will instaniate the form object
             splashform = new SplashForm();
             abilitygeneratorform = new AbilityGeneratorForm();
             aboutbox = new AboutBox();
@@ -40,7 +40,7 @@ namespace COMP123_M2020_FinalExam
             generatenameform = new GenerateNameForm();
             raceandclassform = new RaceAndClassForm();
 
-            //  DECLARING WHICH FORM WILL APPEAR FIRST
+            //  this will help to declare the splash form first
             Application.Run(splashform);
         }
     }

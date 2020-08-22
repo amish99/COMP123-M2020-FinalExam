@@ -49,17 +49,17 @@ namespace COMP123_M2020_FinalExam
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            //the following sets the value of the properties to the value that was generated for the textfields
+            
             Program.character.FirstName = firstNameTextBox.Text;
             Program.character.LastName = LastNameTextBox.Text;
 
             // instantiated abilitygeneratorform object
             AbilityGeneratorForm abilityGeneratorForm = new AbilityGeneratorForm();
 
-            //showing abilitygenerator form
+            //this will abilitygenerator form
             abilityGeneratorForm.Show();
 
-            //hiding generate name form
+            //this will generate name form
             Program.generatenameform.Hide();
         }
     }
